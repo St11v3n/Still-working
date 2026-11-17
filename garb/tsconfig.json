@@ -10,7 +10,7 @@
 
     // Environment Settings
     // See also https://aka.ms/tsconfig/module
-    "rootDir": "..backend",
+    "rootDir": "../backend",
     "outDir": "./dist",
     "module": "nodenext",
     "target": "esnext",

@@ -1,0 +1,27 @@
+{
+  "name": "still-working",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "dev": "nodemon source/index.ts",
+    "debug:router": "cross-env DEBUG=router:route nodemon source/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/St11v3n/Still-working.git",
+    "watch":"tsc -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/St11v3n/Still-working/issues"
+  },
+  "homepage": "https://github.com/St11v3n/Still-working#readme",
+  "dependencies": {
+    "typescript": "^7.0.2"
+  }
+}
